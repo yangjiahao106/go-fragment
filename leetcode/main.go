@@ -1,8 +1,22 @@
 package main
 
-import "fmt"
-
 func main() {
-	ans := minSubArrayLen(4, []int{1, 2, 3,  5})
-	fmt.Println(ans)
+	subarraySumTest()
+
+	//fmt.Println(findDiagonalOrder([][]int{{1}}))
+
+	//coder := Constructor()
+	//root := &TreeNode{
+	//	Val: 1,
+	//	Left: &TreeNode{
+	//		Val: 2,
+	//	},
+	//	Right: &TreeNode{
+	//		Val: 3,
+	//	},
+	//}
+	//s := coder.serialize(nil)
+	//fmt.Printf("*%s*", s)
+	//root = coder.deserialize(s)
+	//fmt.Printf("%+v", root)
 }
