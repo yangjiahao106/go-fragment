@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"strconv"
 	"strings"
 )
@@ -21,6 +22,25 @@ func Constructor() Codec {
 
 	}
 }
+
+func TestSerialize(){
+	coder := Constructor()
+	root := &TreeNode{
+		Val: 1,
+		Left: &TreeNode{
+			Val: 2,
+		},
+		Right: &TreeNode{
+			Val: 3,
+		},
+	}
+	s := coder.serialize(nil)
+	fmt.Printf("*%s*", s)
+	root = coder.deserialize(s)
+	fmt.Printf("%+v", root)
+
+}
+
 
 // V1 DFS
 // Serializes a tree to a single string.
