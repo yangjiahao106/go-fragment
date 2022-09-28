@@ -1,8 +1,22 @@
 package main
 
-import "fmt"
+import (
+	"encoding/binary"
+	"fmt"
+)
 
 func main() {
+
+	fmt.Println(binary.BigEndian.Uint16([]byte{1, 0}))
+	fmt.Println(binary.LittleEndian.Uint16([]byte{1,0}))
+
+	m := map[string]interface{}{}
+
+	m["1"] = 1
+	if m["1"] == 1 {
+		fmt.Println("1***")
+	}
+
 	fmt.Println("hello world")
 	{
 		foo := NewFoo(WithName("name"), WithAge(1), WithDB("db"))

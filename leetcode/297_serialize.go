@@ -34,8 +34,9 @@ func TestSerialize(){
 			Val: 3,
 		},
 	}
-	s := coder.serialize(nil)
-	fmt.Printf("*%s*", s)
+
+	s := coder.serialize(root)
+	fmt.Printf("%s", s)
 	root = coder.deserialize(s)
 	fmt.Printf("%+v", root)
 
