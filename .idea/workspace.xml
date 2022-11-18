@@ -2,25 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7d21583-babc-4edb-baf7-be5602cdaaf6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/225_my_stack.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/450_delete_node.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/offer_21.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/offer_60_lastRemaining.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/rpc/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/udp/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/gmp.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/select.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gc/mem_allo_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/slice_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/1143_longest_common_subsequence.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/148_sort_list.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/22_generate_parenthesis.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/239_max_sliding_window.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/2_add_two_numbers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/31_next_permutation.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/41_first_missing_positive.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/56_merge.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/70_climb_stairs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/82_delete_duplicates.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/8_myAtoi.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/93_restoreIp_addresses.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snowflake/snowflake.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snowflake/snowflake_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/channel.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/channel.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/concurrency/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/once.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/once.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency/once.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/once_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gc/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/gc/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/297_serialize.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/297_serialize.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/interface/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/reuse_addr/client/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/network/reuse_addr/client/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/reuse_addr/server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/network/reuse_addr/server/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/tcp/test_read.go" beforeDir="false" afterPath="$PROJECT_DIR$/network/tcp/test_read.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pointer/unsafe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/tcp/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/network/tcp/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/tcp/tcp.go" beforeDir="false" afterPath="$PROJECT_DIR$/network/tcp/tcp.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/docker-compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///usr/local/Cellar/go/1.15.7/libexec" />
+  <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -60,24 +74,32 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/yangjiahao106/goFragment">
-    <configuration name="go build github.com/yangjiahao106/goFragment" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/network/duplex/client" />
+      <recent name="$PROJECT_DIR$/network/duplex/server" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build github.com/yangjiahao106/goFragment/leetcode">
+    <configuration name="go build github.com/yangjiahao106/goFragment/concurrency" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-fragment" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/yangjiahao106/goFragment" />
+      <package value="github.com/yangjiahao106/goFragment/concurrency" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main.go" />
+      <filePath value="$PROJECT_DIR$/concurrency/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build github.com/yangjiahao106/goFragment/leetcode" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -89,40 +111,49 @@
       <filePath value="$PROJECT_DIR$/leetcode/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/yangjiahao106/goFragment/network/reuse_addr/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMem in github.com/yangjiahao106/goFragment/gc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-fragment" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/gc" />
+      <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/yangjiahao106/goFragment/network/reuse_addr/client" />
+      <package value="github.com/yangjiahao106/goFragment/gc" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/network/reuse_addr/client/main.go" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestMem\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/yangjiahao106/goFragment/network/reuse_addr/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestOnce in github.com/yangjiahao106/goFragment/concurrency" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-fragment" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/concurrency" />
+      <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/yangjiahao106/goFragment/network/reuse_addr/server" />
+      <package value="github.com/yangjiahao106/goFragment/concurrency" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/network/reuse_addr/server/main.go" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestOnce\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/yangjiahao106/goFragment/network/udp" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSliceGrowing in github.com/yangjiahao106/goFragment/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-fragment" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/go" />
+      <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/yangjiahao106/goFragment/network/udp" />
+      <package value="github.com/yangjiahao106/goFragment/go" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/network/udp/main.go" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSliceGrowing\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build github.com/yangjiahao106/goFragment" />
-        <item itemvalue="Go Build.go build github.com/yangjiahao106/goFragment/network/reuse_addr/client" />
-        <item itemvalue="Go Build.go build github.com/yangjiahao106/goFragment/network/reuse_addr/server" />
         <item itemvalue="Go Build.go build github.com/yangjiahao106/goFragment/leetcode" />
-        <item itemvalue="Go Build.go build github.com/yangjiahao106/goFragment/network/udp" />
+        <item itemvalue="Go Test.TestMem in github.com/yangjiahao106/goFragment/gc" />
+        <item itemvalue="Go Test.TestOnce in github.com/yangjiahao106/goFragment/concurrency" />
+        <item itemvalue="Go Test.TestSliceGrowing in github.com/yangjiahao106/goFragment/go" />
+        <item itemvalue="Go Build.go build github.com/yangjiahao106/goFragment/concurrency" />
       </list>
     </recent_temporary>
   </component>

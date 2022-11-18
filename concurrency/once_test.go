@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"sync"
 	"sync/atomic"
+	"testing"
 )
 
 var once3 = sync.Once{}
@@ -39,13 +40,14 @@ func newInstance2() *singletonInstance {
 	return instance
 }
 
-func testOnce() {
+func TestOnce(t *testing.T) {
 
 	once := sync.Once{}
 
 	once.Do(func() {
 		fmt.Println("once")
 	})
+
 	once.Do(func() {
 		fmt.Println("once2")
 	})
