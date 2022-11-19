@@ -1,40 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e7d21583-babc-4edb-baf7-be5602cdaaf6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/concurrency/gmp.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/select.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/mem_allo_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/slice_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/1143_longest_common_subsequence.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/148_sort_list.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/22_generate_parenthesis.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/239_max_sliding_window.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/2_add_two_numbers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/31_next_permutation.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/41_first_missing_positive.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/56_merge.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/70_climb_stairs.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/82_delete_duplicates.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/8_myAtoi.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/93_restoreIp_addresses.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snowflake/snowflake.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snowflake/snowflake_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/once.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/once_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gc/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/gc/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/interface/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/tcp/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/network/tcp/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/tcp/tcp.go" beforeDir="false" afterPath="$PROJECT_DIR$/network/tcp/tcp.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/docker-compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +21,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="GOROOT" url="file://C:/Program Files/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -63,29 +36,29 @@
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2CpiEglUGRKQdnpcB9PAZRqWIZ6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="configurable..is.expanded" value="false" />
-    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
-    <property name="go.import.settings.migrated" value="true" />
-    <property name="go.sdk.automatically.set" value="true" />
-    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="go.sdk" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Yang&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/network/duplex/client" />
@@ -161,7 +134,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VgoProject">
-    <integration-enabled>true</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
 </project>
