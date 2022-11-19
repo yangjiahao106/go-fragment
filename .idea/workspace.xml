@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7d21583-babc-4edb-baf7-be5602cdaaf6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/concurrency/gmp.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency/select.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc/mem_allo_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/slice_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/1143_longest_common_subsequence.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/148_sort_list.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/22_generate_parenthesis.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/239_max_sliding_window.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/2_add_two_numbers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/31_next_permutation.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/41_first_missing_positive.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/56_merge.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/70_climb_stairs.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/82_delete_duplicates.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/8_myAtoi.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/93_restoreIp_addresses.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snowflake/snowflake.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snowflake/snowflake_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/once.go" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/once_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gc/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/gc/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/interface/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/tcp/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/network/tcp/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/tcp/tcp.go" beforeDir="false" afterPath="$PROJECT_DIR$/network/tcp/tcp.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/docker-compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
