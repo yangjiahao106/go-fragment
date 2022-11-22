@@ -20,9 +20,9 @@ func h() []*int {
 	return s[1:3:4]
 }
 
-func TestSyncMap (){
+func TestSyncMap() {
 	var i interface{} = nil
-	p  := unsafe.Pointer(&i)
+	p := unsafe.Pointer(&i)
 
 	fmt.Println(p)
 	sm := sync.Map{}
@@ -38,7 +38,7 @@ func main() {
 	TestSyncMap()
 	return
 
-	//fmt.Println( h())
+	// fmt.Println( h())
 	// go 内存泄露， 垃圾回收触发条件, 内存逃逸的情况
 	// 排序算法
 
