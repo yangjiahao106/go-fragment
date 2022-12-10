@@ -10,7 +10,8 @@ import (
 func main() {
 	//TestGenerateParentthesis()
 	//TestMyAtoi()
-	TestFirstMissingPositive()
+	//TestFirstMissingPositive()
+	reverseWordsTest()
 }
 
 
