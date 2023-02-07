@@ -11,9 +11,8 @@ func main() {
 	//TestGenerateParentthesis()
 	//TestMyAtoi()
 	//TestFirstMissingPositive()
-	reverseWordsTest()
+	TestSortColors()
 }
-
 
 func worker(s []int) {
 	s = append(s, 100) // [1,2,3,100]
@@ -84,6 +83,7 @@ func Subgroup(groups [][]string) ([][]string, error) {
 
 		if len(sub) == 1 && len(ans) > 0 {
 			ans[len(ans)-1] = append(ans[len(ans)-1], sub...)
+			break
 		}
 	}
 

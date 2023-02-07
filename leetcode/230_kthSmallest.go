@@ -66,12 +66,10 @@ func (ks *KthSmallest) KthSmallest(k int) int {
 			root = root.Right
 		} else if ks.m[root.Left] > k-1 {
 			root = root.Left
-		} else {
+		} else { // if  ks.m[root.Left] == k - 1
 			return root.Val
 		}
-
 	}
-	//return -1
 }
 
 func (ks *KthSmallest) Count() {
