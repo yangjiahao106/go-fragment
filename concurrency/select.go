@@ -1,6 +1,12 @@
 package main
 
-func TestSelect() {
+import (
+	"fmt"
+	"testing"
+	"time"
+)
+
+func TestSelect(t *testing.T) {
 	c1 := make(chan interface{})
 	c2 := make(chan interface{})
 	c3 := make(chan interface{})
@@ -25,6 +31,32 @@ func TestSelect() {
 			// 如果c3为nil，则ignore该case
 		}
 
+	}
+}
+
+func TestChanClose(t *testing.T) {
+	c1 := make(chan struct{}, 0)
+
+	c2 := make(chan int, 0)
+
+	go func() {
+		for {
+			select {
+
+			case v := <-c1:
+				fmt.Println("v1", v)
+				time.Sleep(time.Millisecond * 10)
+			case v := <-c2:
+				fmt.Println("v2", v)
+				time.Sleep(time.Millisecond * 10)
+
+			}
+		}
+	}()
+
+	close(c1)
+	for i := 0; i < 100; i++ {
+		c2 <- i
 	}
 
 }
