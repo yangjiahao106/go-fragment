@@ -11,7 +11,8 @@ func main() {
 	//TestGenerateParentthesis()
 	//TestMyAtoi()
 	//TestFirstMissingPositive()
-	TestSortColors()
+	//TestSortColors()
+	TestPermute()
 }
 
 func worker(s []int) {
