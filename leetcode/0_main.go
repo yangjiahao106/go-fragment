@@ -12,7 +12,7 @@ func main() {
 	//TestMyAtoi()
 	//TestFirstMissingPositive()
 	//TestSortColors()
-	TestPermute()
+	TestLongestConsecutive()
 }
 
 func worker(s []int) {

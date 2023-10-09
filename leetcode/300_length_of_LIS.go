@@ -4,12 +4,37 @@ import "fmt"
 
 func TestLengthOfLIS() {
 
-	fmt.Println(lengthOfLIS2([]int{10, 9, 2, 5, 3, 7, 101, 18}))
-	fmt.Println(lengthOfLIS2([]int{0, 1, 0, 3, 2, 3}))
+	fmt.Println(lengthOfLISTemp([]int{10, 9, 2, 5, 3, 7, 101, 18}))
+	fmt.Println(lengthOfLISTemp([]int{0, 1, 0, 3, 2, 3}))
+	fmt.Println(lengthOfLISTemp([]int{0, 1, 0, 3, 2, 3, 9, 1, 5, 8}))
 
 }
 
-// dp
+func lengthOfLISTemp(nums []int) int {
+	dp := make([]int, 0)
+
+	for _, v := range nums {
+		if len(dp) == 0 || v > dp[len(dp)-1] {
+			dp = append(dp, v)
+			continue
+		}
+
+		l, r := 0, len(dp)-1
+		for l < r { // 找到第一个 大于等于n的位置，并替换
+			m := (l + r) / 2
+			if dp[m] >= v {
+				r = m
+			} else {
+				l = m + 1
+			}
+		}
+		dp[r] = v
+
+	}
+	return len(dp)
+}
+
+// dp 60ms
 func lengthOfLIS(nums []int) int {
 	dp := make([]int, len(nums))
 	ans := 0
@@ -25,7 +50,7 @@ func lengthOfLIS(nums []int) int {
 	return ans
 }
 
-// 贪心 + 二分
+// 贪心 + 二分 8ms
 func lengthOfLIS2(nums []int) int {
 	d := make([]int, 0)
 	var tmp []int
